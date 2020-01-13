@@ -1,25 +1,3 @@
-const eqArrays = function(actual, expected) {
-  // check that the arrays have matching length
-  if (actual.length !== expected.length) {
-    return false;
-  }
-  for (let i = 0; i < actual.length; i++) {
-    if (actual[i] !== expected[i]) {
-      return false;
-    }
-  }
-  return true;
-};
-
-const assertArraysEqual = function(actual, expected) {
-  let status = eqArrays(actual, expected);
-  if (status) {
-    console.log('✔️ ✔️ ✔️' + `  Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log('🔴 🔴 🔴' + `  Assertion Failed: ${actual} !=== ${expected}`);
-  }
-};
-
 const middle = function(array) {
   let length = array.length;
   let midIndex = Math.floor(length / 2);
@@ -42,4 +20,4 @@ const middle = function(array) {
   }
 };
 
-assertArraysEqual(middle([1, 2 ,3 ,4]),[2, 3]);
+module.exports = middle;
