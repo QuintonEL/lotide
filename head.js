@@ -1,5 +1,3 @@
-const assertEqual = require('./assertEqual');
-
 const head = function(array) {
   let first = array[0];
   if (array.length <= 0) {
