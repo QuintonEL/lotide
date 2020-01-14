@@ -4,6 +4,7 @@ const eqArrays = function(first, second) {
     return false;
   };
   for (let i = 0; i < first.length; i++) {
+    // if any elements are not the same
     if (first[i] !== second[i]) {
       return false;
     }
