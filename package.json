@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@quintonel/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple take on a JavaScript utility library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/QuintonEL/lotide.git"
   },
-  "author": "",
+  "author": "Quinton LaBorde",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/QuintonEL/lotide/issues"

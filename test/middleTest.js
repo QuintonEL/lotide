@@ -10,4 +10,3 @@ describe("#middle", () => {
     assert.deepEqual(middle([4, 5, 6]), [5]); 
   });
 });
-
